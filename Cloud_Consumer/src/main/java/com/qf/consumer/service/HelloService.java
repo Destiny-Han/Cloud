@@ -25,4 +25,5 @@ public interface HelloService {
 
     @GetMapping("/provider/saveAll.do")
      R saveAll(@RequestParam int c);
+
 }
