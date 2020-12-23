@@ -1,0 +1,10 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: HelloConsumer  #项目名 服务名
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://10.8.163.44:8848/ #注册中心的地址
+
